@@ -1,0 +1,18 @@
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  
+  header a:hover {
+    color: var(--secondary);
+  }
+  
+  @media screen and (max-width: 650px) {
+    header h1 {
+      display: none;
+    }
+  }
