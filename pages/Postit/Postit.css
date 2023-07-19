@@ -1,0 +1,43 @@
+
+
+postit {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+ 
+  .fruta  img {
+    height: 300px;
+    width: auto;
+    gap: 30px;
+  }
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
+    gap: 20px;
+    font-size: 50px;
+  }
+  
+  .genero{
+    display: flex;
+    justify-content: center;    
+    gap: 20px;
+    font-size: 20px;
+  }
+
+  .cualidades{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px 90px 00px;
+    font-size: 1rem;
+    gap: 20px;
+  }

@@ -204,15 +204,21 @@ import "./Postit.css";
     let content = '';
     for (const fruta of variedadFrutas) {
       content += `
+      <div class="fruta">
         <li>
           <img src="${fruta.foto}" alt="${fruta.nombre}"/>
           <h3>${fruta.nombre}</h3>
+          <div class = "genero">
           <p> Género:${fruta.genero}</p>
           <p> Familia: ${fruta.familia}</p>
+          </div>
+          <div class="cualidades">
           <p> Carbohidratos: ${fruta.carbohidratos}</p>
           <p> Grasas: ${fruta.grasas}</p>
           <p> Calorías: ${fruta.calorias}</p>
+          </div>
         </li>
+        </div>
       `;
     }
     return `<ul>${content}</ul>`;

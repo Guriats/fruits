@@ -4,15 +4,47 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-  }
+}
 
-  
-  header a:hover {
+header a:hover {
     color: var(--secondary);
-  }
-  
-  @media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 650px) {
     header h1 {
-      display: none;
+        display: none;
     }
-  }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+
+nav .home {
+    margin-right: 50px;
+    font-size: 30px;
+}

@@ -4,11 +4,15 @@ const template = () => {
     return `
     <h1>NutriFruits</h1>
     <nav>
+    
+    <li>
+      <a href="#null" class="home">Home</a>
+    </li>
+  
     <div>
     <input type="text" id="my-input" placeholder="Choose a fruit..."/>
     <button id="my-btn">Search</button>
     </div>
-  
     </nav>
     `;
   };
