@@ -4,6 +4,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    background: rgb(25, 25, 25);
 }
 
 header a:hover {
@@ -33,6 +34,7 @@ nav ul {
     gap: 10px;
 }
 
+
 nav ul li {
     display: flex;
     align-items: center;
@@ -46,5 +48,5 @@ nav ul li a {
 
 nav #home-link {
     margin-right: 50px;
-    font-size: 30px;
+    font-size: 30px;  
 }
