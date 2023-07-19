@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 
-nav .home {
+nav #home-link {
     margin-right: 50px;
     font-size: 30px;
 }

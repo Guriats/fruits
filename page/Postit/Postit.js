@@ -1,5 +1,6 @@
 import "./Postit.css";
 
+
   const variedadFrutas = [
     {
       nombre: "Manzana",
@@ -200,32 +201,67 @@ import "./Postit.css";
     },
   ];
 
-  const template = () => {
-    let content = '';
-    for (const fruta of variedadFrutas) {
-      content += `
-      <div class="fruta">
-        <li>
-          <img src="${fruta.foto}" alt="${fruta.nombre}"/>
-          <h3>${fruta.nombre}</h3>
-          <div class = "genero">
-          <p> Género:${fruta.genero}</p>
-          <p> Familia: ${fruta.familia}</p>
-          </div>
-          <div class="cualidades">
-          <p> Carbohidratos: ${fruta.carbohidratos}</p>
-          <p> Grasas: ${fruta.grasas}</p>
-          <p> Calorías: ${fruta.calorias}</p>
-          </div>
-        </li>
-        </div>
-      `;
-    }
-    return `<ul>${content}</ul>`;
-  };
+
+  
+  
   
   const Postit = () => {
-    document.querySelector("main").innerHTML = template();
+    const input = document.querySelector("#my-input");
+    const button = document.querySelector("#my-btn");
+  
+    button.addEventListener("click", () => {
+      const fruta = input.value;
+      let frutaSeleccionada = null;
+      for (const frutaActual of variedadFrutas) {
+        if (frutaActual.nombre === fruta) {
+          frutaSeleccionada = frutaActual;
+          break;
+        }
+      }
+  
+      if (frutaSeleccionada) {
+        const main = document.querySelector("main");
+        main.innerHTML = `
+        <div class="fruta">
+          <li>
+            <img src="${frutaSeleccionada.foto}" alt="${frutaSeleccionada.nombre}"/>
+            <h3>${frutaSeleccionada.nombre}</h3>
+            <div class = "genero">
+            <p> Género:${frutaSeleccionada.genero}</p>
+            <p> Familia: ${frutaSeleccionada.familia}</p>
+            </div>
+            <div class="cualidades">
+            <p> Carbohidratos: ${frutaSeleccionada.carbohidratos}</p>
+            <p> Grasas: ${frutaSeleccionada.grasas}</p>
+            <p> Calorías: ${frutaSeleccionada.calorias}</p>
+            </div>
+          </li>
+        </div>
+        `;
+      } else {
+        const main = document.querySelector("main");
+        main.textContent = `
+        La fruta no existe. 
+        `;
+      }
+    });
   };
   
   export default Postit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
