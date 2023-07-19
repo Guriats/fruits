@@ -8,7 +8,7 @@ const template = () => {
     <input type="text" id="my-input" placeholder="Choose a fruit..."/>
     <button id="my-btn">Search</button>
     </div>
-    <article id="pizarra-data"></article>
+  
     </nav>
     `;
   };
