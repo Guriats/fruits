@@ -11,11 +11,13 @@ postit {
     gap: 20px;
   }
   
- 
+ /*    filter: brightness(0);      mix-blend-mode: multiply;*/
   .fruta  img {
     height: 300px;
     width: auto;
-    gap: 30px;
+    margin-top: 40px;
+    gap: 30px;  
+    mix-blend-mode: multiply;
   }
 
   h3 {
@@ -38,6 +40,10 @@ postit {
     justify-content: center;
     text-align: center;
     padding: 10px 0px 90px 00px;
-    font-size: 1rem;
-    gap: 20px;
+    font-size: 30px;
+    gap: 40px;
+  }
+
+  #noExiste{
+    font-size: 30px;
   }

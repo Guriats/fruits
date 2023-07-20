@@ -1,21 +1,29 @@
 header {
     height: 10vh;
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap; 
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
     background: rgb(25, 25, 25);
 }
+/* flex-wrap: wrap;*/
 
-header a:hover {
-    color: var(--secondary);
-}
+header button:hover {
+    background-color: rgb(162, 106, 2);
+    color: whitesmoke;
+  }
 
-@media screen and (max-width: 650px) {
-    header h1 {
-        display: none;
+
+  @media screen and (max-width: 650px) {
+    #navhome {
+        display: flex;
+        flex-wrap: wrap;         
     }
 }
+
+
+
 
 nav {
     display: flex;
@@ -46,7 +54,7 @@ nav ul li a {
 }
 
 
-nav #home-link {
+#home-link {
     margin-right: 50px;
     font-size: 30px;  
 }

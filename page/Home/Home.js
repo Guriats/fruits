@@ -2,8 +2,8 @@ import "./Home.css";
 
 const template = () => {
   return `
-  <h2>POR UNA VIDA SALUDABLE</h2>
-  <p>Elige tu fruta favorita y comprueba su valor nutricional</p>
+  <h2 id>POR UNA VIDA SALUDABLE</h2>
+  <p id="parrafo">Elige tu fruta favorita y comprueba su valor nutricional</p>
   `;
 };
 
