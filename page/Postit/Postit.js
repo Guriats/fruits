@@ -4,7 +4,7 @@ import "./Postit.css";
   const variedadFrutas = [
     {
       nombre: "Manzana",
-      foto: "images/manzana.jpg",
+      foto: "images/manzana.png",
       genero: "Malus",
       familia: "Rosaceae",
       carbohidratos: 13.8,
@@ -13,7 +13,7 @@ import "./Postit.css";
     },
     {
       nombre: "Plátano",
-      foto: "images/platano.jpg",
+      foto: "images/platano.png",
       genero: "Musa",
       familia: "Musaceae",
       carbohidratos: 22,
@@ -22,7 +22,7 @@ import "./Postit.css";
     },
     {
       nombre: "Naranja",
-      foto: "images/naranja.jpg",
+      foto: "images/naranja.png",
       genero: "Citrus",
       familia: "Rutaceae",
       carbohidratos: 11.8,
@@ -31,7 +31,7 @@ import "./Postit.css";
     },
     {
       nombre: "Mandarina",
-      foto: "images/mandarina.jpg",
+      foto: "images/mandarina.png",
       genero: "Citrus",
       familia: "Rutaceae",
       carbohidratos: 12.5,
@@ -40,7 +40,7 @@ import "./Postit.css";
     },
     {
       nombre: "Uva",
-      foto: "images/uvas.jpg",
+      foto: "images/uvas.png",
       genero: "Vitis",
       familia: "Vitaceae",
       carbohidratos: 18.1,
@@ -49,7 +49,7 @@ import "./Postit.css";
     },
     {
       nombre: "Fresa",
-      foto: "images/fresa.jpg",
+      foto: "images/fresa.png",
       genero: "Fragaria",
       familia: "Rosaceae",
       carbohidratos: 7.7,
@@ -58,7 +58,7 @@ import "./Postit.css";
     },
     {
       nombre: "Piña",
-      foto: "images/pina.jpg",
+      foto: "images/pina.png",
       genero: "Ananas",
       familia: "Bromeliaceae",
       carbohidratos: 13.1,
@@ -67,7 +67,7 @@ import "./Postit.css";
     },
     {
       nombre: "Mango",
-      foto: "images/mango.jpg",
+      foto: "images/mango.png",
       genero: "Mangifera",
       familia: "Anacardiaceae",
       carbohidratos: 15,
@@ -76,7 +76,7 @@ import "./Postit.css";
     },
     {
       nombre: "Melón",
-      foto: "images/melon.jpg",
+      foto: "images/melon.png",
       genero: "Cucumis",
       familia: "Cucurbitaceae",
       carbohidratos: 8.2,
@@ -85,7 +85,7 @@ import "./Postit.css";
     },
     {
       nombre: "Sandía",
-      foto: "images/sandia.jpg",
+      foto: "images/sandia.png",
       genero: "Citrullus",
       familia: "Cucurbitaceae",
       carbohidratos: 7.6,
@@ -94,7 +94,7 @@ import "./Postit.css";
     },
     {
       nombre: "Albaricoque",
-      foto: "images/albaricoque.jpg",
+      foto: "images/albaricoque.png",
       genero: "Prunus",
       familia: "Rosaceae",
       carbohidratos: 10.6,
@@ -103,7 +103,7 @@ import "./Postit.css";
     },
     {
       nombre: "Cereza",
-      foto: "images/cereza.jpg",
+      foto: "images/cereza.png",
       genero: "Prunus",
       familia: "Rosaceae",
       carbohidratos: 12.2,
@@ -112,7 +112,7 @@ import "./Postit.css";
     },
     {
       nombre: "Kiwi",
-      foto: "images/kiwi.jpg",
+      foto: "images/kiwi.png",
       genero: "Actinidia",
       familia: "Actinidiaceae",
       carbohidratos: 14.7,
@@ -121,7 +121,7 @@ import "./Postit.css";
     },
     {
       nombre: "Limón",
-      foto: "images/limon.jpg",
+      foto: "images/limon.png",
       genero: "Citrus",
       familia: "Rutaceae",
       carbohidratos: 3,
@@ -130,7 +130,7 @@ import "./Postit.css";
     },
     {
       nombre: "Mora",
-      foto: "images/mora.jpg",
+      foto: "images/mora.png",
       genero: "Rubus",
       familia: "Rosaceae",
       carbohidratos: 4.9,
@@ -139,7 +139,7 @@ import "./Postit.css";
     },
     {
       nombre: "Melocotón",
-      foto: "images/melocoton.jpg",
+      foto: "images/melocoton.png",
       genero: "Prunus",
       familia: "Rosaceae",
       carbohidratos: 10.5,
@@ -148,7 +148,7 @@ import "./Postit.css";
     },
     {
       nombre: "Ciruela",
-      foto: "images/ciruela.jpg",
+      foto: "images/ciruela.png",
       genero: "Prunus",
       familia: "Rosaceae",
       carbohidratos: 11.4,
@@ -157,7 +157,7 @@ import "./Postit.css";
     },
     {
       nombre: "Pera",
-      foto: "images/pera.jpg",
+      foto: "images/pera.png",
       genero: "Pyrus",
       familia: "Rosaceae",
       carbohidratos: 15.5,
@@ -166,7 +166,7 @@ import "./Postit.css";
     },
     {
       nombre: "Granada",
-      foto: "images/granada.jpg",
+      foto: "images/granada.png",
       genero: "Punica",
       familia: "Lythraceae",
       carbohidratos: 18.7,
@@ -175,7 +175,7 @@ import "./Postit.css";
     },
     {
       nombre: "Higo",
-      foto: "images/higo.jpg",
+      foto: "images/higo.png",
       genero: "Ficus",
       familia: "Moraceae",
       carbohidratos: 19.2,
@@ -184,7 +184,7 @@ import "./Postit.css";
     },
     {
       nombre: "Coco",
-      foto: "images/coco.jpg",
+      foto: "images/coco.png",
       genero: "Cocos",
       familia: "Arecaceae",
       carbohidratos: 15.2,
@@ -193,7 +193,7 @@ import "./Postit.css";
     },
     {
       nombre: "Papaya",
-      foto: "images/papaya.jpg",
+      foto: "images/papaya.png",
       genero: "Carica",
       familia: "Caricaceae",
       carbohidratos: 10.8,
