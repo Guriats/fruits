@@ -15,12 +15,12 @@ header button:hover {
   }
 
 
-  @media screen and (max-width: 650px) {
+ /* @media screen and (max-width: 650px) {
     #navhome {
         display: flex;
         flex-wrap: wrap;         
     }
-}
+}*/
 
 
 
