@@ -4,10 +4,17 @@ import Footer from './components/Footer/Footer';
 import Postit from './page/Postit/Postit';
 import Home from './page/Home/Home';
 import linkPage from './utils/linkPage';
+import About from './page/About/About';
+import Contact from './page/Contact/Contact';
+
 Home();
+About();
 Header();
 Footer();
 Postit();
 
+linkPage("#contact-link", Contact);
+linkPage("#about-link", About);
 linkPage("#home-link", Home);
+
 //document.querySelector("#home-link").addEventListener("click", Home);
