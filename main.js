@@ -7,8 +7,8 @@ import linkPage from './utils/linkPage';
 import About from './page/About/About';
 import Contact from './page/Contact/Contact';
 
-Home();
 About();
+Home();
 Header();
 Footer();
 Postit();

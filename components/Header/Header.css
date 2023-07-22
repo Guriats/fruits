@@ -9,6 +9,7 @@ header {
     justify-content: space-between;
     padding: 0 20px;
     background: rgb(25, 25, 25);
+    
 }
 /* flex-wrap: wrap;*/
 
@@ -70,6 +71,12 @@ nav ul li a {
 }
 
 #contact-link {
+    margin-right: 50px;
+    font-size: 20px;  
+    font-weight: 500;
+}
+
+#api-link {
     margin-right: 50px;
     font-size: 20px;  
     font-weight: 500;

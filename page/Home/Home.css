@@ -1,3 +1,59 @@
+#imagenPrincipal{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110%;
+}
+
+/*background-image: url(public/images/frutas.jpeg) no-repeat;*/
+
+#contenedorFrutas {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    margin-top: -180px;
+  
+}
+
+#frutas {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*ANIMACION*/
+@keyframes encoger {
+    from {
+      transform: scale(1.1);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  #contenedorFrutas {
+    animation: encoger 1s forwards;
+  }
+/*HASTA AQUI ANIMACION*/
+
+#texto{
+    padding-top: 100px;
+}
+
 #parrafo {
-    font-size: 30px;
-};
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+#homeFrutas{
+
+    height: 300px;
+}
+
