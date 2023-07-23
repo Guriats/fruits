@@ -7,11 +7,14 @@ import linkPage from './utils/linkPage';
 import About from './page/About/About';
 import Contact from './page/Contact/Contact';
 
+
+
+Header();
 About();
 Home();
-Header();
 Footer();
 Postit();
+
 
 linkPage("#contact-link", Contact);
 linkPage("#about-link", About);

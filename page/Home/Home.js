@@ -1,3 +1,4 @@
+import { variedadFrutas } from "../../data/data";
 import "./Home.css";
 
 const template = () => {
@@ -11,58 +12,96 @@ const template = () => {
   <p id="parrafo">Elige tu fruta favorita y comprueba su valor nutricional</p>
   </div>
   </section>
+  
   <h2>Elige tu fruta</h2>
-  <section>
-    <ul>
-      <li>
-        <a href="#null"
-          ><img
-            src="images/albaricoque.png"
-            alt="Albaricoque" id="homeFrutas"
-        /></a>
-      </li>
-      <li>
-      <a href="#null"
-        ><img
-          src="images/cereza.png"
-          alt="Cereza" id="homeFrutas"
-      /></a>
-    </li>
-    <li>
-    <a href="#null"
-      ><img
-        src="images/ciruela.png"
-        alt="Ciruela" id="homeFrutas"
-    /></a>
-  </li>
-  <li>
-  <a href="#null"
-    ><img
-      src="images/coco.png"
-      alt="Coco" id="homeFrutas"
-  /></a>
-</li>
-<li>
-<a href="#null"
-  ><img
-    src="images/fresa.png"
-    alt="Fresa" id="homeFrutas"
-/></a>
-</li> <li>
-<a href="#null"
-  ><img
-    src="granada/.png"
-    alt="Granada" id="homeFrutas"
-/></a>
-</li>
-    </ul>
-  </section>
+
+  <ul id="fruits-container"></ul>
   `;
 };
 
 
+
+
+const printFruits = () => {
+  const fruitContainer = document.querySelector("#fruits-container");
+  for (const variedadFruta of variedadFrutas) {
+    const li = document.createElement("li");
+    const anchor = document.createElement("a");
+    anchor.href = "#null";
+    anchor.innerHTML = `<h3>${variedadFruta.nombre}</h3>`;
+    const img = document.createElement("img");
+    img.src = variedadFruta.foto;
+    img.alt = variedadFruta.nombre;
+
+
+    anchor.addEventListener("click", function(event) {
+      event.preventDefault();
+      const main = document.querySelector("main");
+      main.innerHTML = `
+        <div class="fruta">
+          <li>
+            <img src="${variedadFruta.foto}" alt="${variedadFruta.nombre}"/>
+            <h3>${variedadFruta.nombre}</h3>
+            <div class="genero">
+              <p>Género: ${variedadFruta.genero}</p>
+              <p>Familia: ${variedadFruta.familia}</p>
+            </div>
+            <div class="cualidades">
+              <p>Carbohidratos: ${variedadFruta.carbohidratos}</p>
+              <p>Grasas: ${variedadFruta.grasas}</p>
+              <p>Calorías: ${variedadFruta.calorias}</p>
+            </div>
+          </li>
+        </div>
+      `;
+    });
+
+
+
+    img.addEventListener("click", function(event) {
+      event.preventDefault();
+      const main = document.querySelector("main");
+      main.innerHTML = `
+        <div class="fruta">
+          <li>
+            <img src="${variedadFruta.foto}" alt="${variedadFruta.nombre}"/>
+            <h3>${variedadFruta.nombre}</h3>
+            <div class="genero">
+              <p>Género: ${variedadFruta.genero}</p>
+              <p>Familia: ${variedadFruta.familia}</p>
+            </div>
+            <div class="cualidades">
+              <p>Carbohidratos: ${variedadFruta.carbohidratos}</p>
+              <p>Grasas: ${variedadFruta.grasas}</p>
+              <p>Calorías: ${variedadFruta.calorias}</p>
+            </div>
+          </li>
+        </div>
+      `;
+    });
+
+
+
+
+    li.appendChild(img);
+    li.appendChild(anchor);
+    fruitContainer.appendChild(li);
+  }
+};
+
+
+
+
+
+
+
+
+
+
+
 const Home = () => {
   document.querySelector("main").innerHTML = template();
+  printFruits ();
 };
 
 export default Home;
