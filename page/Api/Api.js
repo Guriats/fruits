@@ -3,7 +3,7 @@ import "./Api.css";
 const template = () => {
   return `
   <div>
-  <p>HOLA</P>
+  <p>HOLA Alo</P>
   <input type="text" id="my-input" placeholder="Nombre de la fruta"/>
   <button id="my-btn">Search</button>
   </div>
