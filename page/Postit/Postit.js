@@ -202,21 +202,6 @@ import "./Postit.css";
   ];
 
 
-
-/*html
-<button id="miBoton">Haz clic aquí</button>
-
-<script>
-  const boton = document.getElementById('miBoton');
-
-  boton.addEventListener('keydown', function(event) {
-    if (event.keyCode === 13) {
-      // Aquí puedes colocar la lógica que deseas ejecutar cuando se presione Enter
-      console.log('Enter fue presionado');
-    }
-  });
-</script>*/ 
-
   
   
   
@@ -266,7 +251,7 @@ import "./Postit.css";
 
 
 
-  
+
   export default Postit;
 
 

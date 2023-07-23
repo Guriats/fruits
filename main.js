@@ -6,6 +6,7 @@ import Home from './page/Home/Home';
 import linkPage from './utils/linkPage';
 import About from './page/About/About';
 import Contact from './page/Contact/Contact';
+import Api from './page/Api/Api';
 
 
 
@@ -14,6 +15,7 @@ About();
 Home();
 Footer();
 Postit();
+Api();
 
 
 linkPage("#contact-link", Contact);
