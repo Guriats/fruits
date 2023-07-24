@@ -5,6 +5,7 @@ const template = () => {
   <div id="cabeceraNutri">
   <h1>NutriFruits</h1>
   <div id="direccion">
+
   <p>móvil: 674 90 78 44</p>
   <p>c/ Benito Pérez Galdos, nº 13
   cp. 37500, Baracaldo

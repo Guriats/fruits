@@ -1,6 +1,7 @@
 
 
 header {
+    width: 100%;
     z-index: 2;
     height: 10vh;
     display: flex; 
@@ -13,25 +14,20 @@ header {
 }
 /* flex-wrap: wrap;*/
 
-header button:hover {
+/*header button:hover {
     background-color: rgb(162, 106, 2);
     color: whitesmoke;
-  }
-
-
- /* @media screen and (max-width: 650px) {
-    #navhome {
-        display: flex;
-        flex-wrap: wrap;         
-    }
-}*/
+  }*/
+ 
 
 
 
 
+/*
 nav {
     display: flex;
     align-items: center;
+   
 }
 
 nav div {
@@ -55,7 +51,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: var(--primary);
-}
+}*/
 
 
 #home-link {
