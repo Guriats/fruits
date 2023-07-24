@@ -3,6 +3,10 @@ import "./About.css";
 const template = () => {
   return `
   
+  <div id="contenedorNaranjo">
+  <img src="images/naranjos.webp" alt="Naranjos" id="naranjo"/>
+  </div> 
+
   <p id="about">Somos una empresa que ha desarrollado una app de nutrición que ayuda a los usuarios a conocer los valores nutricionales de diferentes frutas. La app está disponible para iOS y Android, y es gratuita.
 
 Para usar la app, simplemente busca la fruta que quieres conocer en la barra de búsqueda. La app te mostrará una tabla con los valores nutricionales de la fruta, incluyendo las calorías, las vitaminas, los minerales, los carbohidratos, las proteínas y las grasas.

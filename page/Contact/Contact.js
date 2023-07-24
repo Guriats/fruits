@@ -2,8 +2,21 @@ import "./Contact.css";
 
 const template = () => {
   return `
-  <h2 id>POR UNA VIDA SALUDABLE</h2>
-  <p id="parrafo">Elige tu fruta favorita y comprueba su valor nutricional</p>
+  <div id="direccion">
+  <p>móvil: 674 90 78 44</p>
+  <p>c/ Benito Pérez Galdos, nº 13
+  cp. 37500, Baracaldo
+  País Vasco</p>
+  </div>
+  <div id="formulario">
+  <input type="text" id="my-input-name" placeholder="Name"/>
+  <input type="text" id="my-input-first-name" placeholder="First Name"/>
+  <input type="text" id="my-input-e-mail" placeholder="e-mail"/>
+  <input type="text" id="my-input-comentarios" placeholder="Comentarios"/>
+  </div>
+  <div id="">
+  </div>
+  
   `;
 };
 

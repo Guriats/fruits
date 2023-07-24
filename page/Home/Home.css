@@ -6,8 +6,6 @@
     width: 110%;
 }
 
-/*background-image: url(public/images/frutas.jpeg) no-repeat;*/
-
 #contenedorFrutas {
     position: relative;
     width: 100%;
@@ -66,13 +64,15 @@
 }
 
 #fruits-container{
+  margin-top: 20px;
+    width: 80%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
     align-items: end;
 }
 
-/*grid-template-columns: repeat(auto-fi, minmax(300px, 1fr))*/
+
 
 #fruits-container img {
     max-width: 200px;
@@ -92,13 +92,12 @@
   }
   
  
-  
+  #eligeFruta{
+    margin-top: 50px;
+  }
  
   
 
-  /*.homeFrutas img{
-    height: 250px;
-    width: auto; 
-}*/
+
 
 

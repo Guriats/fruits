@@ -13,7 +13,7 @@ const template = () => {
   </div>
   </section>
   
-  <h2>Elige tu fruta</h2>
+  <h2 id="eligeFruta">Elige tu fruta</h2>
 
   <ul id="fruits-container"></ul>
   `;

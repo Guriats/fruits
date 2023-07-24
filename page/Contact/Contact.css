@@ -1,0 +1,48 @@
+#direccion{
+    margin-top: 70px;
+    width: 70%;
+    text-align: right;
+}
+
+#formulario{
+    background-color: rgb(68, 67, 67);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: autopx;
+    border: 1px grey;
+    margin-top: 50px;
+}
+
+#my-input-name{
+    margin: 15px;
+    background-color: rgb(209, 207, 207);
+    border-radius: 0%;
+}
+#my-input-first-name{
+    margin: 15px;
+    background-color: rgb(209, 207, 207);
+    border-radius: 0%;
+}
+#my-input-e-mail{
+    margin: 15px;
+    background-color: rgb(209, 207, 207);
+    border-radius: 0%;
+}
+#my-input-comentarios{
+    height: 150px;
+    margin: 15px;
+    background-color: rgb(209, 207, 207);
+    border-radius: 0%;
+}
+
+main {
+    overflow: hidden;
+     height: 82vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     padding: 20px;
+     gap: 20px;
+   }

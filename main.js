@@ -15,7 +15,7 @@ About();
 Home();
 Footer();
 Postit();
-Api();
+//Api();
 
 
 linkPage("#contact-link", Contact);
