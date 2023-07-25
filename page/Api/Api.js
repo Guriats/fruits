@@ -2,7 +2,7 @@ import "./Api.css";
 
 const template = () => {
   return `
-  <p id="practicar">Esta vez te toca practicar tu inglés</p>
+  <p id="practicar">Esta vez te toca practicar inglés</p>
   <p id="favorita">Piensa en tu fruta favorita y mira cuanto bien te hace!!!</p>
   <p id="recuerda">Recuerda: escríbelo en ingles!!!</p>
   <div id="botones">

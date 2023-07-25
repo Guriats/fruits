@@ -13,10 +13,10 @@ import Api from './page/Api/Api';
 
 Header();
 About();
-Home();
 Footer();
 Postit();
 Api();
+Home();
 
 
 linkPage("#contact-link", Contact);
