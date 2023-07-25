@@ -2,9 +2,11 @@ import "./Api.css";
 
 const template = () => {
   return `
-  <div>
-  <p>HOLA Alo</p>
-  <input type="text" id="m-input" placeholder="Nombre de la fruta"/>
+  <p id="practicar">Esta vez te toca practicar tu inglés</p>
+  <p id="favorita">Piensa en tu fruta favorita y mira cuanto bien te hace!!!</p>
+  <p id="recuerda">Recuerda: escríbelo en ingles!!!</p>
+  <div id="botones">
+  <input type="text" id="m-input" placeholder="Choose your Fruit"/>
   <button id="m-btn">Search</button>
   </div>
   <article id="fruta-data"></article>
@@ -26,7 +28,6 @@ const getFruit = async (fruitName) => {
 };
 
 
-
 //const { name, id, family, order, genus, nutritions } = data
 
 //ESTA FUNCION SE ENCARGA DE PINTAR LOS DATOS
@@ -37,11 +38,11 @@ const printData = (data) => {
  
   container.innerHTML = `
   <h2>${data.name}</h2>
-  <h2>${data.nutritions.calories} calorías</h2>
-  <h2>${data.nutritions.fat}</h2>
-  <h2>${data.nutritions.sugar}</h2>
-  <h2>${data.nutritions.carbohydrates}</h2>
-  <h2>${data.nutritions.protein}</h2>
+  <h3 id="calories">Calories: ${data.nutritions.calories}</h3>
+  <h3>Fat: ${data.nutritions.fat} </h3>
+  <h3>Sugar: ${data.nutritions.sugar}</h3>
+  <h3>Carbohydrates: ${data.nutritions.carbohydrates}</h3>
+  <h3>Protein: ${data.nutritions.protein}</h3>
   `;
 };
 

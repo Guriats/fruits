@@ -41,7 +41,11 @@
     text-align: center;
     padding: 20px;
     gap: 20px;
+    
   }
+
+
+
   /*height: 82vh;*/
   
   main h2 {
@@ -61,6 +65,7 @@
 }
 
   input {
+    background-color: rgb(179, 180, 180);
     padding: 5px 15px;
     font-size: 20px;
     border-radius: 10px;

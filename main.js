@@ -22,5 +22,6 @@ Api();
 linkPage("#contact-link", Contact);
 linkPage("#about-link", About);
 linkPage("#home-link", Home);
+linkPage("#api-link", Api);
 
 //document.querySelector("#home-link").addEventListener("click", Home);
