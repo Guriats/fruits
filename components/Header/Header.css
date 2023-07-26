@@ -87,9 +87,7 @@ nav ul li a {
 @media screen and (max-width: 850px) {
    
  
-     #contenedorFrutas{
-         display: none;
-     }
+
      header{
         height: 16vh;
         width: auto;
