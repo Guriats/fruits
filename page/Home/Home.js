@@ -17,8 +17,7 @@ const template = () => {
 
   <ul id="fruits-container"></ul>
 
-  <div style="height: 2px; width: 50%; background-color: blue;">
-  </div>
+<hr>
 
   <div class="containerOpinion">
 
