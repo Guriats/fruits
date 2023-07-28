@@ -96,6 +96,33 @@
     margin-top: 50px;
   }
  
+  .opinion{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .foto{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+     border-radius: 90%;
+   
+  }
+
+  .linea-horizontal {
+    border-top: 2px solid rgb(213, 204, 204);
+    margin: 10px 0;
+  }
+
+  .containerOpinion{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-top: 100px;
+    gap: 100px;
+  }
   
 
 

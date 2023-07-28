@@ -16,6 +16,28 @@ const template = () => {
   <h2 id="eligeFruta">Elige tu fruta</h2>
 
   <ul id="fruits-container"></ul>
+
+  <div style="height: 2px; width: 50%; background-color: blue;">
+  </div>
+
+  <div class="containerOpinion">
+
+  <div class="opinion">
+  <img src="images/Angelina.webp" alt="Angelina" class="foto">
+  <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500</p>
+  </div>
+
+  <div class="opinion">
+  <img src="images/michel.jpg" alt="Michel" class="foto">
+  <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500</p>
+  </div>
+
+  <div class="opinion">
+  <img src="images/salma.jpg" alt="Salma" class="foto">
+  <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500</p>
+  </div>
+
+  </div>
   `;
 };
 
